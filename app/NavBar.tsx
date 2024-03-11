@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { IoJournalOutline } from "react-icons/io5";
 
-const navBar = () => {
+const NavBar = () => {
   const links = [
     { label: "Dashboard", href: "/" },
     { label: "Issues", href: "/issues" },
@@ -27,4 +27,4 @@ const navBar = () => {
   );
 };
 
-export default navBar;
+export default NavBar;
